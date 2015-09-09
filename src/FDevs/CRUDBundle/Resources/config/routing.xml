@@ -7,4 +7,5 @@
     <route id="f_devs_crud_homepage" path="/hello/{name}">
         <default key="_controller">FDevsCRUDBundle:Default:index</default>
     </route>
+    <import resource="@FDevsCRUDBundle/Resources/config/routing/book.xml" prefix="/book"/>
 </routes>

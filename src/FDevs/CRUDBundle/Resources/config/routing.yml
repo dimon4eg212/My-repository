@@ -1,0 +1,4 @@
+f_devs_crud_book:
+    resource: "@FDevsCRUDBundle/Resources/config/routing/book.xml"
+    prefix:   /book
+
