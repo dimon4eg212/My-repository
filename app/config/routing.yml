@@ -1,3 +1,7 @@
+f_devs_crud:
+    resource: "@FDevsCRUDBundle/Resources/config/routing.xml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
