@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7fcda12cddb5e463abd88f8573b5b90a",
+    "hash": "1ba8b8ae79494f7b2d646fec471f4bca",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1582,17 +1582,68 @@
             "time": "2015-09-08 14:26:39"
         },
         {
-            "name": "twig/twig",
-            "version": "v1.21.1",
+            "name": "twbs/bootstrap",
+            "version": "v3.3.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ca8d3aa90b6a01c82e07909fe815d6b443e75a23"
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ca8d3aa90b6a01c82e07909fe815d6b443e75a23",
-                "reference": "ca8d3aa90b6a01c82e07909fe815d6b443e75a23",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16b48259a62f576e52c903c476bd42b90ab22482",
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2015-06-16 16:13:22"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.21.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "ddce1136beb8db29b9cd7dffa8ab518b978c9db3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddce1136beb8db29b9cd7dffa8ab518b978c9db3",
+                "reference": "ddce1136beb8db29b9cd7dffa8ab518b978c9db3",
                 "shasum": ""
             },
             "require": {
@@ -1640,7 +1691,57 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-08-26 08:58:31"
+            "time": "2015-09-09 05:28:51"
+        },
+        {
+            "name": "twitter/bootstrap-bundle",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrey1s/TwitterBootstrapBundle.git",
+                "reference": "5b6f7d67d0c0c6c106db0d2b14b072bb585e6eca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andrey1s/TwitterBootstrapBundle/zipball/5b6f7d67d0c0c6c106db0d2b14b072bb585e6eca",
+                "reference": "5b6f7d67d0c0c6c106db0d2b14b072bb585e6eca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "symfony/symfony": ">=2.7,<3.0-dev",
+                "symfony/twig-bridge": ">=2.3,<3.0-dev"
+            },
+            "require-dev": {
+                "friendsofsymfony/user-bundle": "1.*",
+                "knplabs/knp-paginator-bundle": "2.3.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Twitter\\BootstrapBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samusev Andrey",
+                    "email": "andrey_simfi@list.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development. integration into Symfony2.",
+            "homepage": "http://twitter.github.com/bootstrap/",
+            "keywords": [
+                "front-end framework",
+                "symfony twitter bootstrap",
+                "twitter",
+                "twitter bootstrap"
+            ],
+            "time": "2013-01-16 00:00:00"
         }
     ],
     "packages-dev": [

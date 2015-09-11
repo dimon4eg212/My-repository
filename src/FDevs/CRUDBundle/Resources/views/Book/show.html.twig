@@ -1,9 +1,8 @@
 {% extends '::base.html.twig' %}
-
 {% block body -%}
     <h1>Book</h1>
 
-    <table class="record_properties">
+    <table class="table">
         <tbody>
             <tr>
                 <th>Title</th>
@@ -21,24 +20,21 @@
                 <th>Introduction</th>
                 <td>{{ entity.introduction }}</td>
             </tr>
-            <tr>
-                <th>Id</th>
-                <td>{{ entity.id }}</td>
-            </tr>
+            {#<tr>#}
+                {#<th>Id</th>#}
+                {#<td>{{ entity.id }}</td>#}
+            {#</tr>#}
         </tbody>
     </table>
 
-        <ul class="record_actions">
-    <li>
+
         <a href="{{ path('book') }}">
             Back to the list
         </a>
-    </li>
-    <li>
-        <a href="{{ path('book_edit', { 'id': entity.id }) }}">
-            Edit
-        </a>
-    </li>
-    <li>{{ form(delete_form) }}</li>
-</ul>
+    {#<li>#}
+        {#<a href="{{ path('book_edit', { 'id': entity.id }) }}">#}
+            {#Edit#}
+        {#</a>#}
+    {#</li>#}
+    {{ form(delete_form) }}
 {% endblock %}
